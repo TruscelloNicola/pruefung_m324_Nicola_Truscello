@@ -1,1 +1,1 @@
-# pruefung_m324_Nicola_Truscello
+# Prüfung M324
