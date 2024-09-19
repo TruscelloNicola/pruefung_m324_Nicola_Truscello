@@ -1,7 +1,9 @@
 import chalk from 'chalk';
 
-var myUnusedVariable = "asd";
+var myUnusedVariable = 'It works';
 
-if (3 == 3){
-    console.log(chalk.blue('It works'))
+const val = 3
+
+if (3 === val){
+    console.log(chalk.blue(myUnusedVariable))
 }
