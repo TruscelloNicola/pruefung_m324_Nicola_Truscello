@@ -3,24 +3,16 @@ import pluginJs from '@eslint/js';
 
 export default [
   {
-    languageOptions:
-      {
-        globals:
-          globals.browser,
-      },
+    languageOptions: {
+      globals: globals.browser,
+    },
   },
-  pluginJs
-    .configs
-    .recommended,
+  pluginJs.configs.recommended,
   {
-    rules:
-      {
-        'no-unused-vars':
-          'error',
-        'prefer-const':
-          'error',
-        eqeqeq:
-          'error',
-      },
+    rules: {
+      'no-unused-vars': 'error',
+      'prefer-const': 'error',
+      eqeqeq: 'error',
+    },
   },
 ];
