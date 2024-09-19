@@ -1,3 +1,7 @@
 import chalk from 'chalk';
 
-console.log(chalk.blue('It works'))
+var myUnusedVariable = "asd";
+
+if (3 == 3){
+    console.log(chalk.blue('It works'))
+}
