@@ -9,9 +9,7 @@ if (3 === val) {
 }
 
 export function calculate (a, b, operation){
-    //Remove to make work again
-    a = a + 1;
-    
+
     if (operation === "+"){
         return a + b;
     }
