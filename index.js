@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+import chalk from 'chalk'; // Change from conflict-feature
 
 var myUnusedVariable = 'It works';
 
