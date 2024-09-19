@@ -1,4 +1,4 @@
-import chalk from 'chalk'; // Change from conflict-feature
+import chalk from 'chalk'; //Change in main branch
 
 var myUnusedVariable = 'It works';
 
